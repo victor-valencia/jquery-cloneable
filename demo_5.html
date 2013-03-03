@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>JQuery Cloneable</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/theme.css"/>
+
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-cloneable.min.js"></script>
+	<script type="text/javascript" src="js/demo/demo_5.js"></script>
+
+    </head>
+
+    <body>
+
+	<div class="container-fluid">
+
+	    <div class="row-fluid">
+		<div class="span12">
+
+		    <p class="text-info">Set data an specific index.</p>
+
+		</div>
+	    </div>
+
+	    <div class="row-fluid">
+		<div class="span12">
+
+		    <table id="tableCloneable" class="table table-bordered table-striped">
+
+			<thead>
+
+			    <tr>
+				<th>Photo</th>
+				<th>Full Name</th>
+				<th>Country</th>
+				<th>Education</th>
+				<th></th>
+			    </tr>
+
+			</thead>
+
+			<tbody>
+
+			    <tr class="model">
+				<td style="text-align: center;">
+				    <img name="photo[]" src="" class="img-polaroid" style="width: 48px; height: 48px;"/>
+				</td>
+				<td name="full_name[]"></td>
+				<td name="country[]"></td>
+				<td name="education[]"></td>
+				<td>
+				    <button type="button" class="buttonEdit btn btn-primary input-block-level" tittle="Edit"><i class="icon-pencil icon-white"></i> Edit</button>
+				</td>
+			    </tr>
+
+			</tbody>
+
+		    </table>
+
+		</div>
+	    </div>
+
+	    <div id="windowEdit" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		    <h3 id="myModalLabel">Edit</h3>
+		</div>
+		<div class="modal-body">
+		    <input name="index" type="hidden"/>
+		    Full name:
+		    <input name="full_name" type="text" class="input-block-level" placeholder="Type a full name"/>
+		    Country:
+		    <select name="country" class="input-block-level">
+			<option value="">Select a country</option>
+			<option value="México">México</option>
+			<option value="United States">United States</option>
+		    </select>
+		    Education:
+		    <textarea name="education" class="input-block-level" placeholder="Type a education"></textarea>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		    <button id="buttonSave" class="btn btn-primary"><i class="icon-lock icon-white"></i> Save</button>
+		</div>
+	    </div>
+
+	</div>
+
+    </body>
+
+</html>

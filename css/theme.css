@@ -1,0 +1,38 @@
+/*
+	jquery-clonable v1.0
+
+	Autor: Victor Valencia Rico
+	valencia_vik@hotmail.com
+
+	Febrary 2013
+*/
+
+p, input, textarea, select {
+    margin-bottom: 0 !important;
+}
+
+.row-fluid {
+    padding-top: 10px;
+}
+
+.table thead {
+    background: rgb(238,238,238); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+
+.table thead th {
+    vertical-align: middle;
+    text-align: center;
+    min-width: 150px;
+}
+
+.table thead th:first-child, .table thead th:last-child  {
+    min-width: 80px;
+}

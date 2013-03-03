@@ -1,0 +1,62 @@
+[
+    {
+	"full_name": "Carlos Slim",
+	"country": "México",
+	"education": "Bachelor of Arts / Science, Universidad Nacional Autonoma de Mexico",
+	"photo": "images/carlos-slim-helu_42x42.jpg"
+    },
+    {
+	"full_name": "Bill Gates",
+	"country": "United States",
+	"education": "Drop Out, Harvard University",
+	"photo": "images/bill-gates_42x42.jpg"
+    },
+    {
+	"full_name": "Warren Buffett",
+	"country": "United States",
+	"education": "Master of Science, Columbia University; Bachelor of Arts / Science, University of Nebraska Lincoln",
+	"photo": "images/warren-buffett_42x42.jpg"
+    },
+    {
+	"full_name": "Mark Zuckerberg",
+	"country": "United States",
+	"education": "Drop Out, Harvard University",
+	"photo": "images/mark-zuckerberg_42x42.jpg"
+    },
+    {
+	"full_name": "Joaquin Guzman Loera",
+	"country": "México",
+	"education": "...",
+	"photo": "images/joaquin-guzman-loera_42x42.jpg"
+    },
+    {
+	"full_name": "Larry Ellison",
+	"country": "United States",
+	"education": "Drop Out, University of Chicago; Drop Out, University of Illinois at Urbana",
+	"photo": "images/larry-ellison_42x42.jpg"
+    },
+    {
+	"full_name": "Laurene Powell Jobs & family",
+	"country": "United States",
+	"education": "Master of Business Administration, Stanford Graduate School of Business; Bachelor of Arts / Science, University of Pennsylvania; Bachelor of Arts / Science, University of Pennsylvania Wharton School",
+	"photo": "images/laurene-powell-jobs_42x42.jpg"
+    },
+    {
+	"full_name": "Oprah Winfrey",
+	"country": "United States",
+	"education": "Bachelor of Arts / Science, Tennessee State University",
+	"photo": "images/oprah-winfrey_42x42.jpg"
+    },
+    {
+	"full_name": "Sergey Brin",
+	"country": "United States",
+	"education": "Master of Science, Stanford University; Bachelor of Arts / Science, University of Maryland, College Park",
+	"photo": "images/sergey-brin_42x42.jpg"
+    },
+    {
+	"full_name": "Christy Walton & family",
+	"country": "United States",
+	"education": "...",
+	"photo": "images/christy-walton_42x42.jpg"
+    }
+]
