@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>JQuery Cloneable</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="social-likes/social-likes.css"/>
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="social-likes/social-likes.min.js"></script>
+	<script type="text/javascript" src="js/demo/index.js"></script>
+
+    </head>
+
+    <body>
+
+	<!-- Begin :: Donate Form -->
+	<form id="formDonate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	    <input type="hidden" name="cmd" value="_s-xclick">
+	    <input type="hidden" name="hosted_button_id" value="7344EETBUX96A">
+	</form>
+	<!-- End :: Donate Form -->
+
+	<!-- Begin :: Header -->
+	<div class="container-fluid no-padding" >
+	    <div class="row-fluid header-primary top-header top-header-background " style="padding-top: 0;">
+		<div class="span6">
+			<div class="sheep-logo pull-left"></div>
+			<h2>JQUERY CLONEABLE</h2>
+			<p class="subtitle">¡Clone everything!</p>
+		</div>
+		<div class="span6">
+		    <div class="row-fluid" style="padding-top: 0;">
+			<div class="span12">
+			    <div id="buttonsPanel" class="btn-group buttons-menu-container pull-right">
+				<button class="btn btn-primary active" data-page="demos"><i class="icon-eye-open icon-white"></i> Demos</button>
+				<button class="btn btn-inverse" data-page="docs"><i class="icon-book icon-white"></i> Documentation</button>
+			    </div>
+			</div>
+		    </div>
+		    <div class="row-fluid" style="padding-top: 0;">
+			<div class="span12">
+			    <div class="pull-right" style="margin-right: 20px;">
+				<p>Develop by <a href="https://github.com/victor-valencia">Victor Valencia</a></p>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+	<!-- End :: Header -->
+
+	<!-- Begin :: Content -->
+	<div class="container-fluid">
+
+	    <div class="row-fluid">
+
+		<div class="span1"></div>
+		<div class="span10">
+
+		    <!-- Begin :: Git Hub Buttons -->
+		    <div class="row-fluid">
+			<div class="span12 text-center">
+			    <div class="btn-group buttons-menu-container">
+				<button class="btn btn-inverse">
+				    <a href="https://github.com/victor-valencia/jquery-cloneable/zipball/master">
+					<i class="icon-download icon-white"></i> Download Project
+				    </a>
+				</button>
+				<button id="btnDonate" class="btn btn-warning">
+				    <i class="icon-heart icon-white"></i> PayPal Donate
+				</button>
+				<button class="btn btn-inverse">
+				    <a href="https://github.com/victor-valencia/jquery-cloneable" target="_blank">
+					<i class="icon-github icon-white"></i> View on Git Hub
+				    </a>
+				</button>
+			    </div>
+			</div>
+		    </div>
+		    <!-- End :: Git Hub Buttons -->
+
+		    <!-- Begin :: Page Demos -->
+		    <div class="container-fluid page" data-page="demos">
+
+			<div class="row-fluid">
+			    <div class="span12">
+				<h3>Demos</h3>
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+				<img src="css/images/divider.png" class="divider"/>
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+				<div class="tabbable tabs-left">
+				    <ul class="nav nav-tabs">
+					<li class="active"><a href="demo_1.html" data-width="265px">Example 1</a></li>
+					<li><a href="demo_2.html" data-width="265px">Example 2</a></li>
+					<li><a href="demo_3.html" data-width="925px">Example 3</a></li>
+					<li><a href="demo_4.html" data-width="600px">Example 4</a></li>
+					<li><a href="demo_5.html" data-width="925px">Example 5</a></li>
+					<li><a href="demo_6.html" data-width="925px">Example 6</a></li>
+				    </ul>
+				    <div class="tab-content">
+					<iframe src="demo_1.html" style="width: 100%; height: 265px;"></iframe>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<div class="accordion">
+				    <div class="accordion-group">
+					<div class="accordion-heading">
+					    <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+						<i class="icon-eye-open"></i> View code:
+					    </a>
+					</div>
+					<div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+					    <div class="accordion-inner">
+
+						<div class="row-fluid gist-container" style="display: block;">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/ef6f3722c47a46ae65a4.js"></script>
+						    </div>
+						</div>
+						<div class="row-fluid gist-container">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/c6d660ab84e2005b8a9e.js"></script>
+						    </div>
+						</div>
+						<div class="row-fluid gist-container">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/93a3c64fcefb2cde4ade.js"></script>
+							<script src="https://gist.github.com/victor-valencia/f7173b486d6a837353f5.js"></script>
+						    </div>
+						</div>
+						<div class="row-fluid gist-container">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/7988c0bd191995e0ed78.js"></script>
+							<script src="https://gist.github.com/victor-valencia/f7173b486d6a837353f5.js"></script>
+						    </div>
+						</div>
+						<div class="row-fluid gist-container">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/efb5e34c3df4fd89b068.js"></script>
+							<script src="https://gist.github.com/victor-valencia/f7173b486d6a837353f5.js"></script>
+						    </div>
+						</div>
+						<div class="row-fluid gist-container">
+						    <div class="span12">
+							<script src="https://gist.github.com/victor-valencia/6d6f94be6806620d2033.js"></script>
+							<script src="https://gist.github.com/victor-valencia/f7173b486d6a837353f5.js"></script>
+						    </div>
+						</div>
+
+					    </div>
+					</div>
+				    </div>
+				</div>
+
+			    </div>
+			</div>
+
+		    </div>
+		    <!-- End :: Page Demos -->
+
+		    <!-- Begin :: Page Documentation -->
+		    <div class="container-fluid page hide" data-page="docs">
+
+			<div class="row-fluid">
+			    <div class="span12">
+				<h3>Documentation</h3>
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+				<img src="css/images/divider.png" class="divider"/>
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">initialization</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( <span class="text-info">options</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Initialize plu-gin.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <thead>
+					<th>options</th>
+					<th><span class="data-type">Object</span></th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>fadeEffect</td>
+					    <td>
+						<span class="data-type">Boolean</span>
+						Indicates whether to use the fade effect when you add or remove items.
+						<p class="inner">Default: true</p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>events</td>
+					    <td>
+						<span class="data-type">Object</span>
+						Custom events.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span2"></div>
+			    <div class="span10">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <thead>
+					<th>events</th>
+					<th><span class="data-type">Object</span></th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>onCloneAdded(event)</td>
+					    <td>
+						<span class="data-type">Function</span>
+						This event fires when the clone is added.
+
+						<p>Properties of event value:</p>
+						<p class="inner">event.data <span class="muted">Cloned item data.</span></p>
+						<p class="inner">event.index <span class="muted">Cloned item index.</span></p>
+						<p class="inner">event.length <span class="muted">Size of items cloned.</span></p>
+						<p class="inner">event.node <span class="muted">Instance of cloned item.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>onCloneRemoved(event)</td>
+					    <td>
+						<span class="data-type">Function</span>
+						This event fires when the clone is removed.
+
+						<p>Properties of event value:</p>
+						<p class="inner">event.index <span class="muted">Index of the deleted item.</span></p>
+						<p class="inner">event.length <span class="muted">Size of items cloned.</span></p>
+						<p class="inner">event.node <span class="muted">Instance of cloned item.</span></p>
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">addClone</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'addClone', <span class="text-info">options</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Add new clone.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <thead>
+					<th>options</th>
+					<th><span class="data-type">Array | Object</span></th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>index</td>
+					    <td>
+						<span class="data-type">Integer</span>
+						Item index.
+						<p class="inner">Default: -1 <span class="muted">Indicates the last item.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>data</td>
+					    <td>
+						<span class="data-type">Object</span>
+						Item data.
+						<p class="inner">Default: {} <span class="muted">Indicates empty data.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>model</td>
+					    <td>
+						<span class="data-type">String</span>
+						Model name.
+						<p class="inner">Default: null <span class="muted">Indicates the first model.</span></p>
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">getModel</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'getModel', <span class="text-info">name</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Gets the specified model.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <tbody>
+					<tr>
+					    <td>name</td>
+					    <td>
+						<span class="data-type">String</span>
+						Model name.
+						<p class="inner">Default: null <span class="muted">Indicates the first model.</span></p>
+					    </td>
+					</tr>
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">getData</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'getData', <span class="text-info">index</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: Object</span>
+						Gets data from a specified index.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <tbody>
+					<tr>
+					    <td>index</td>
+					    <td>
+						<span class="data-type">Integer</span>
+						Item index.
+						<p class="inner">Default: 0 <span class="muted">Indicates the first item.</span></p>
+					    </td>
+					</tr>
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">setData</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'setData', <span class="text-info">options</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Data sets of a specified index.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <thead>
+					<th>options</th>
+					<th><span class="data-type">Object</span></th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>index</td>
+					    <td>
+						<span class="data-type">Integer</span>
+						Item index.
+						<p class="inner">Default: 0 <span class="muted">Indicates the first index.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>data</td>
+					    <td>
+						<span class="data-type">Object</span>
+						Item data.
+						<p class="inner">Default: {} <span class="muted">Indicates a empty data.</span></p>
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">changeModel</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'changeModel', <span class="text-info">options</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Changes the model of a specified index.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <thead>
+					<th>options</th>
+					<th><span class="data-type">Object</span></th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>index</td>
+					    <td>
+						<span class="data-type">Integer</span>
+						Item index.
+						<p class="inner">Default: 0 <span class="muted">Indicates the first index.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>data</td>
+					    <td>
+						<span class="data-type">Object</span>
+						Item data.
+						<p class="inner">Default: {} <span class="muted">Indicates a empty data.</span></p>
+					    </td>
+					</tr>
+					<tr>
+					    <td>model</td>
+					    <td>
+						<span class="data-type">String</span>
+						Model name.
+						<p class="inner">Default: null <span class="muted">Indicates the first model.</span></p>
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">removeClone</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'removeClone', <span class="text-info">index</span> )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Remove an item from a specified index.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span1"></div>
+			    <div class="span11">
+
+				<table class="table table-bordered table-striped table-doc-options">
+
+				    <tbody>
+					<tr>
+					    <td>index</td>
+					    <td>
+						<span class="data-type">Integer</span>
+						Item index.
+						<p class="inner">Default: -1 <span class="muted">Indicates the last item.</span></p>
+					    </td>
+					</tr>
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+			<div class="row-fluid">
+			    <div class="span12">
+
+				<table class="table table-bordered table-striped table-doc">
+
+				    <thead class="top-header-background">
+					<th colspan="2">removeAllClone</th>
+				    </thead>
+				    <tbody>
+
+					<tr>
+					    <td>
+						<span class="text-success">.cloneable</span>( 'removeAllClone' )
+					    </td>
+					    <td class="muted">
+						<span class="return-type">Returns: jQuery</span>
+						Remove all items.
+					    </td>
+					</tr>
+
+				    </tbody>
+
+				</table>
+
+			    </div>
+			</div>
+
+		    </div>
+		    <!-- End :: Page Documentation -->
+
+		    <!-- Begin :: Footer -->
+		    <div class="row-fluid">
+			<div class="span12">
+			    <img src="css/images/divider.png" class="divider"/>
+			</div>
+		    </div>
+
+		    <div class="row-fluid">
+			<div class="span12 text-center" style="padding-top: 10px; padding-bottom: 20px;">
+			    <p>
+				All examples shown here including the home page using the <a href="http://jasny.github.com/bootstrap/index.html">Bootstrap framework with Jasny Extensions</a>.
+			    </p>
+			    <p>
+				<a href="https://github.com/victor-valencia/jquery-cloneable">JQuery Cloneable</a> © Victor Valencia Rico 2013.
+				Released under the <a href="https://github.com/victor-valencia/jquery-cloneable/blob/master/MIT%20License.txt">MIT license</a>.
+			    </p>
+			</div>
+		    </div>
+		    <!-- End :: Footer -->
+
+		</div>
+		<div class="span1"></div>
+
+	    </div>
+
+	</div>
+	<!-- End :: Content -->
+
+	<div id="wrapperSocial">
+	    <ul class="social-likes social-likes_vertical" data-url="victor-valencia.github.com/jquery-cloneable" data-title="JQuery Cloneable">
+		<li class="facebook" title="Share link on Facebook">Facebook</li>
+		<li class="twitter" data-via="recktoner" title="Share link on Twitter">Twitter</li>
+		<li class="plusone" title="Share link on Google+">Google+</li>
+	    </ul>
+	</div>
+
+	<!-- Begin :: Button Back -->
+	<div id="wrapperBackTop">
+	    <button type="button" class="btn btn-inverse"><i class="icon-white icon-upload"></i> Back top</button>
+	</div>
+	<!-- End :: Button Back -->
+
+    </body>
+
+</html>
